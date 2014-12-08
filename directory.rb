@@ -20,3 +20,7 @@ puts "Andy Newman"
 puts "Marcin"
 puts "Jacob Mitchinson"
 puts "Emily Sas"
+
+print "Overall, we have "
+print 19
+puts " awesome students"

@@ -1,9 +1,9 @@
 students = [
-"Alan",
-"Andy",
-"Bibiana",
-"Charlie",
-"Jin"
+{:name => "Alan", :cohort => :november},
+{:name => "Andy", :cohort => :november},
+{:name => "Bibiana", :cohort => :november},
+{:name => "Charlie", :cohort => :november},
+{:name => "Jin", :cohort => :november}
 ]
 
 def print_header
@@ -11,9 +11,9 @@ def print_header
 	puts "-----------"
 end
 
-def print(names)
-	names.each do |name|
-		puts name
+def print(students)
+	students.each do |student|
+		puts "#{student[:name]} (#{student[:cohort]} cohort)"
 	end
 end
 
